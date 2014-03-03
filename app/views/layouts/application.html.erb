@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Brandedbar</title>
+  <title>WTF WIlly </title>
 
 <% if Rails.env.production? %>
  
-				<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+				<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 				<link rel="stylesheet" 
 				href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-				 
+				  -->
 <% else Rails.env.development? %>
 
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" 
 href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
- 
+  -->
  
 <% end %> 
 
-			<%= stylesheet_link_tag    "application", 
+			<%#= stylesheet_link_tag    "application", 
 						media: "all"  %>
-			<%= csrf_meta_tags %>
+			<%#= csrf_meta_tags %>
   
 </head>
 <body>
@@ -28,10 +28,10 @@ href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 <%= yield %>
 
 
-<%= javascript_include_tag "application" %> 
+<%#= javascript_include_tag "application" %> 
 
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
-</script>
+<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
+</script> -->
 
 </body>
 </html>
